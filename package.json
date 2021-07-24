@@ -1,0 +1,37 @@
+{
+  "name": "mini-rpc-server-template",
+  "version": "0.0.1",
+  "description": "mini-rpc server template",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mini-rpc/server-template.git"
+  },
+  "keywords": [
+    "mini-rpc",
+    "template",
+    "server"
+  ],
+  "author": "xiaoliu-heng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mini-rpc/server-template/issues"
+  },
+  "homepage": "https://github.com/mini-rpc/server-template#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.1",
+    "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@mini-rpc/server": "0.0.11"
+  }
+}
