@@ -32,6 +32,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@mini-rpc/server": "0.0.11"
+    "@mini-rpc/server": "0.0.12"
   }
 }
